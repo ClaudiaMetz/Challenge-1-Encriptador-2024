@@ -10,3 +10,5 @@ Aquí en la captura podemos apreciar que se pueden encontrar todos los elementos
 - Un botón para encriptar
 - Un botón para desencriptar
 - Área para mostrar el texto encriptado/desencriptado.
+
+Además, la página es responsive: Se va adaptando a las diferentes medidas de pantallas donde se visualice.
