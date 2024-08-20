@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <nav>
+      <div><img src="img/logo Alura color.png" alt="logoAluraColor" /></div>
+      <h1>Challenge #1: Encriptador</h1>
+    </nav>
+    <main>
+      <div class="las2sections">
+        <section class="primeraSection">
+          <textarea
+            class="inputTxt"
+            cols="60"
+            rows="9"
+            placeholder="INGRESE SU TEXTO AQUI"
+          ></textarea>
+          <div>
+            <button class="encriptar" onclick="btnEncriptar()">
+              ENCRIPTAR
+            </button>
+            <button class="desencriptar" onclick="btnDesencriptar()">
+              DESENCRIPTAR
+            </button>
+          </div>
+        </section>
+        <section class="segundaSection">
+          <textarea
+            class="outputTxt"
+            cols="60"
+            rows="9"
+            placeholder="AQUI APARECERÁ SU TEXTO TRANSFORMADO"
+          ></textarea>
+          <button class="copiar" onclick="copiar()">COPIAR TEXTO</button>
+        </section>
+      </div>
+      <footer>
+        <h2>
+          &copy; Creado por Claudia Metz para ONE - 2024 - Todos los derechos
+          reservados.
+        </h2>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+}
+body {
+  margin-top: 1em;
+  background-color: darkslategray;
+  background-image: url("img/fondo1.jpeg");
+  background-repeat: round;
+}
+nav {
+  display: flex;
+  margin: 2em;
+}
+nav div img {
+  width: 5em;
+}
+h1 {
+  font-family: Lobster;
+  src: url(fonts/Lobster-Regular.ttf), Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  color: rgb(217, 239, 78);
+  background-color: rgb(22, 4, 95);
+  margin: auto;
+}
+.las2sections,
+.primeraSection,
+.segundaSection {
+  display: inline-flex;
+  flex-direction: column;
+}
+.las2sections {
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25%;
+}
+button {
+  width: 47%;
+  height: 2em;
+  border-radius: 50%;
+  border: 0.3em solid rgb(200, 240, 118);
+  margin: 0.2em;
+  font-family: Lobster;
+  src: url(fonts/Lobster-Regular.ttf), Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 2vw;
+  color: rgb(230, 211, 11);
+}
+.inputTxt {
+  background-color: rgb(214, 248, 172);
+  width: 100%;
+  font-size: 1.2rem;
+  color: rgb(186, 169, 101);
+}
+.outputTxt {
+  background-color: rgb(217, 216, 204);
+  width: 100%;
+  font-size: 1.2rem;
+  color: rgb(186, 169, 101);
+}
+.encriptar {
+  background-color: rgb(39, 39, 125);
+}
+.desencriptar {
+  background-color: rgb(31, 156, 31);
+}
+.copiar {
+  background-color: rgb(105, 78, 13);
+}
+footer {
+  font-family: Lobster;
+  src: url(fonts/Lobster-Regular.ttf), Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  color: azure;
+  display: flex;
+  justify-content: center;
+}
