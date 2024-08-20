@@ -3,7 +3,7 @@
 
 Aquí en la captura podemos apreciar que se pueden encontrar todos los elementos solicitados:
 
-<u>__Elementos principales de la página__</u>
+<u>**Elementos principales de la página**</u>
   
 + Título de su sitio web
 + Campo para el texto que va a ser encriptado/desencriptado
